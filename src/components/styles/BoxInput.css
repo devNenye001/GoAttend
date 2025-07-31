@@ -1,0 +1,36 @@
+
+.box-input-wrapper {
+    border: 2px solid black;
+  margin-bottom: 20px;
+  width: 80%;
+border-radius: 10px;
+padding: 10px 20px;
+}
+
+.box-input-label {
+    font-size: 18px;
+  display: block;
+  font-weight: bold;
+  color: #333;
+}
+
+.box-input-field {
+ width: 100%;
+    height: 40px;
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.InputContainer{
+    width: 80% !important;
+    height: 100vh;
+    margin: auto;
+}
+
+.InputContainer .custom-btn{
+    width: 400px;
+}

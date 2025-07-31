@@ -1,4 +1,8 @@
-import Login from "./pages/login"
+import AddStudents from "./pages/AddStudents"
+
+
+
+
 
 
 function App() {
@@ -6,7 +10,8 @@ function App() {
 
   return (
     <>
-       <Login /> 
+
+       <AddStudents/>
     </>
   )
 }
