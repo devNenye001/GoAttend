@@ -1,0 +1,33 @@
+.header2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+ .header2 span {
+  position: absolute;
+  left: 0%;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  color: #3b3b52;
+  text-align: center;
+
+}
+
+.header2 span:hover {
+  color: #1a1a2e;
+  background-color: #dedddd;
+}
+
+.header2 h1 {
+  font-family: "Bowlby One", sans-serif;
+  margin: 20px 0px;
+  font-size: 1.5rem;
+}

@@ -1,8 +1,7 @@
-// pages/Login.jsx
-import './styles/login.css';
-import Button from '../components/button';
-import PasswordInput from '../components/passwordEye';
-
+import "./styles/login.css";
+import Button from "../components/button";
+import PasswordInput from "../components/passwordEye";
+import SuccessMsg, {LoadingMsg, ErrorMsg} from "../components/errors/message";
 
 const Login = () => {
   return (
@@ -19,6 +18,7 @@ const Login = () => {
 
         <Button label="Log In" />
       </div>
+      
     </div>
   );
 };

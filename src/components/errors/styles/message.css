@@ -1,0 +1,21 @@
+.success, .Loading, .Error {
+  background-color: hsl(129, 93%, 90%);
+  color: #2CF74C;
+  border: #2CF74C 1px solid;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 10px 0;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 600;
+}    
+.Error {
+  background-color: hsl(5, 89%, 90%);
+  color: #F56356;
+  border: #F56356 1px solid;
+}
+.Loading {
+  background-color: hsl(235, 14%, 90%);
+  color: #4C4E64;
+  border: #4C4E64 1px solid;
+}

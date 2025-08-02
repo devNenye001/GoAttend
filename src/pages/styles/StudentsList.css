@@ -1,5 +1,24 @@
-.InputContainer{
-     position: relative;
+.students-page h1 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 0.2rem;
+}
+
+.students-page h2 {
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.total-count {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.students-page {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -7,22 +26,15 @@
   margin: auto;
   min-height: 100vh;
   font-family: "Poppins", sans-serif;
-} 
-
-.InputContainer h1{
-    font-family: "Bowlby One", sans-serif;
-    margin-bottom: 20px;
-    font-size: 32px;
 }
 
-.InputContainer .custom-btn{
-    width: 80%;
-    min-width: 100px;
-    max-width: 400px;
-    margin-top: 30px;
+.students-page .custom-btn {
+  max-width: 500px;
+  position: absolute;
+  bottom: 20px;
 }
 
-.InputContainer .header {
+.students-page .header {
   width: 100%;
   display: flex;
   align-items: center;
@@ -30,7 +42,7 @@
   margin: 20px 0px;
 }
 
-.InputContainer .header span {
+.students-page .header span {
   position: absolute;
   left: 0%;
   border-radius: 100%;
@@ -45,12 +57,12 @@
 
 }
 
-.InputContainer .header span:hover {
+.students-page .header span:hover {
   color: #1a1a2e;
   background-color: #dedddd;
 }
 
-.InputContainer .header h1 {
+.students-page .header h1 {
   font-family: "Bowlby One", sans-serif;
   margin-bottom: 20px;
   font-size: 1.5rem;

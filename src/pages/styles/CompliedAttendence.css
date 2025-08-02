@@ -1,28 +1,23 @@
-.InputContainer{
-     position: relative;
+.CompliedAttendence {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 80%;
+  max-width: 90%;
   margin: auto;
   min-height: 100vh;
   font-family: "Poppins", sans-serif;
-} 
-
-.InputContainer h1{
-    font-family: "Bowlby One", sans-serif;
-    margin-bottom: 20px;
-    font-size: 32px;
 }
 
-.InputContainer .custom-btn{
-    width: 80%;
-    min-width: 100px;
-    max-width: 400px;
-    margin-top: 30px;
+.CompliedAttendence h1 {
+  font-family: "Bowlby One", sans-serif;
 }
 
-.InputContainer .header {
+.CompliedAttendence .custom-btn1 {
+  width: 90%;
+}
+
+.CompliedAttendence .header {
   width: 100%;
   display: flex;
   align-items: center;
@@ -30,7 +25,7 @@
   margin: 20px 0px;
 }
 
-.InputContainer .header span {
+.CompliedAttendence .header span {
   position: absolute;
   left: 0%;
   border-radius: 100%;
@@ -42,16 +37,23 @@
   cursor: pointer;
   color: #3b3b52;
   text-align: center;
-
 }
 
-.InputContainer .header span:hover {
+.CompliedAttendence .header span:hover {
   color: #1a1a2e;
   background-color: #dedddd;
 }
 
-.InputContainer .header h1 {
+.CompliedAttendence .header h1 {
   font-family: "Bowlby One", sans-serif;
-  margin-bottom: 20px;
+  margin: 20px 0px;
   font-size: 1.5rem;
+
+}
+
+@media (max-width: 500px) {
+  .CompliedAttendence .header h1 {
+    font-size: 2px;
+    margin-left: 20px;
+  }
 }

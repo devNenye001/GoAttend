@@ -1,0 +1,28 @@
+.day-section {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.day-section h3 {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.day-section button {
+  background-color: #3b3b52;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 3px 1px 0 #0000;
+  margin-top: 0.5rem;
+}
+
+.day-section button:hover {
+  background-color: #2a2a3c;
+}

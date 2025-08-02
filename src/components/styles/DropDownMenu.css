@@ -10,7 +10,9 @@
 }
 
 .dropdown-select {
-  border:none;
+  /* width: 50%;
+  height: 30%; */
+  border: none;
   padding: 10px;
   border-radius: 6px;
   font-size: 18px;
@@ -21,4 +23,11 @@
   transition: border-color 0.2s ease;
 }
 
-
+.dropdown-select option {
+  width: 30%;
+  font-size: 16px;
+  color: #222;
+  background-color: #f9f9f9;
+  padding: 8px;
+  width: 30%;
+}

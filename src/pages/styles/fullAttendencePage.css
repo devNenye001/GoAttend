@@ -1,5 +1,20 @@
-.InputContainer{
-     position: relative;
+.FullAttendencePage h1{
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 0.2rem;
+}
+
+.FullAttendencePage h3 {
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+
+.FullAttendencePage {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -7,22 +22,15 @@
   margin: auto;
   min-height: 100vh;
   font-family: "Poppins", sans-serif;
-} 
-
-.InputContainer h1{
-    font-family: "Bowlby One", sans-serif;
-    margin-bottom: 20px;
-    font-size: 32px;
 }
 
-.InputContainer .custom-btn{
-    width: 80%;
-    min-width: 100px;
-    max-width: 400px;
-    margin-top: 30px;
+.FullAttendencePage .custom-btn {
+  max-width: 500px;
+  position: absolute;
+  bottom: 20px;
 }
 
-.InputContainer .header {
+.FullAttendencePage .header {
   width: 100%;
   display: flex;
   align-items: center;
@@ -30,7 +38,7 @@
   margin: 20px 0px;
 }
 
-.InputContainer .header span {
+.FullAttendencePage .header span {
   position: absolute;
   left: 0%;
   border-radius: 100%;
@@ -45,13 +53,14 @@
 
 }
 
-.InputContainer .header span:hover {
+.FullAttendencePage .header span:hover {
   color: #1a1a2e;
   background-color: #dedddd;
 }
 
-.InputContainer .header h1 {
+.FullAttendencePage .header h1 {
   font-family: "Bowlby One", sans-serif;
   margin-bottom: 20px;
   font-size: 1.5rem;
 }
+

@@ -2,6 +2,7 @@
   height: 100vh;
   display: flex;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
   background: #fff;
 }
@@ -11,7 +12,6 @@
   max-width: 400px;
   padding: 40px 20px;
   border: 1.5px solid hsl(0, 0%, 80%);
-  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); */
   border-radius: 12px;
   text-align: center;
 }
